@@ -2,7 +2,8 @@ import React from 'react';
 
 function About() {
   return (
-    <div style={{ padding: '40px' }}>
+    <div style={{   padding: '20px',
+        textAlign: 'center' }}>
       <h2>About Serenity Camp</h2>
       <img src="/banner2.webp" alt="Serenity Camp Banner" style={{width: '80%', height: 'auto', borderRadius: '10px'}} />
       <p>

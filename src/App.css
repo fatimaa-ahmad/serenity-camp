@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: #fff0f5; /* a soft pastel background */
+  background: #eaeaf19b; /* a soft pastel background */
 }
 
 /* Headings use a stylish serif font */
@@ -26,10 +26,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Global link styles */
 a {
-  color: #ff69b4;
+  color: #ffffff57;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff0f5;
+}
+
+/* Ensure images don't exceed the screen width */
+img {
+  max-width: 100%;
+  height: auto;
 }
